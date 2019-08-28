@@ -131,7 +131,7 @@ the shared Volume is lost.
 
 
 {{% capture whatsnext %}}
-
+Note: To read the data from volume in the container say "first" written by some other container say "second", mounted path must be available in the "first" container. 
 * Learn more about
 [patterns for composite containers](https://kubernetes.io/blog/2015/06/the-distributed-system-toolkit-patterns).
 
